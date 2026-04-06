@@ -13,7 +13,9 @@ const NavBar = ()=>{
                   style={{
                     padding:"6px",
                     border:"1px solid #000",
-                    borderRadius:"50%"
+                    borderRadius:"50%",
+                    color:"#fff",
+                    backgroundColor:"#100701",
                   }}/></span>
             </div>
         </div>

@@ -10,8 +10,9 @@ body{
     align-items: center;
     justify-content: center;
     .navbarContainer{
+       position: fixed;
        width: 53%;
-       height: 95%;
+       height: 10%;
        border: 1px solid #000;
        border-radius:20px ;
        display: flex;
@@ -28,6 +29,9 @@ body{
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
           font-weight: 800;
           padding: 20px 30px;
+          background: linear-gradient(45deg, #FFD700, #d4bc8f, #FF8C00);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           cursor: pointer;
           transition: .4s ease-out;
           &:hover{
@@ -36,7 +40,8 @@ body{
           }
         }
         .SignUpButton{
-            border: 1px solid #000;
+            border: 1px solid #f4d9bc;
+            background-color: #f4d9bc;
             border-radius: 20px;
             padding-left: 20px;
             display: flex;
