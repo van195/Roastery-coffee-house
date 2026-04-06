@@ -15,7 +15,7 @@ const NavBar = ()=>{
                     border:"1px solid #000",
                     borderRadius:"50%",
                     color:"#fff",
-                    backgroundColor:"#100701",
+                    backgroundColor:"#210f04",
                   }}/></span>
             </div>
         </div>
