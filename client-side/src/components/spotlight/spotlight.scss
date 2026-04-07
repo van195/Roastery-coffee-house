@@ -1,0 +1,19 @@
+.spotLight{
+    height: 100svh;
+    .spotLight-images{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .spotlight-image{
+          position: relative;
+          clip-path: inset(0 20% 0 20%);
+          will-change: transform ,clip-path;
+          overflow: hidden;
+           img {
+            width: 70%;
+            height: 100%;
+            object-fit: cover;
+            }
+        }
+    }
+}
