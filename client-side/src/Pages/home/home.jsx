@@ -1,3 +1,4 @@
+import CoffeeFeature from '../../components/coffeeFeature/coffeeFeature.jsx';
 import Hero from '../../components/hero/hero.jsx';
 import NavBar from '../../components/NavBar/NavBar.jsx';
 const Home =()=>{
@@ -5,6 +6,7 @@ const Home =()=>{
         <div className="home">
            <NavBar/>
            <Hero/>
+           <CoffeeFeature/>
         </div>
     )
 }
