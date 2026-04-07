@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     max-width: max-content;
+    overflow-x: hidden;
 }
 .hero{
     margin-top: -60px;
@@ -15,7 +16,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     .heroContainer{
         position: relative;
         width: 90%;

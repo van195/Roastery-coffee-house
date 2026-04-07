@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.OurStory{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(230deg,#351806ec,#1a0a01f1,#1a0b01),url("../../assets/back-up-background-template.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .OurStoryContainer{
+        position: relative;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .coffeeBean{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 0;
+            opacity: .5;
+        }
+        .coffeeBean1{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            left: 400px;
+            top: 100px;
+            opacity: .5;
+        }
+        .coffeeBean2{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 300px;
+            left: 100px;
+            opacity: .5;
+        }
+         .coffeeBean3{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            bottom: 0px;
+            right: 0;
+            opacity: .5;
+        }
+        .coffeeBean4{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            bottom: 300px;
+            right: 100px;
+            opacity: .5;
+        }
+        .coffeeBean5{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            bottom: 100px;
+            right: 100px;
+            opacity: .5;
+        }
+        .theCupSpot{
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .theCupSpotContainer{
+                width: 70%;
+                height: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                border-bottom:3px solid;
+                border-image-source: 
+                  linear-gradient(90deg, 
+                  transparent,
+                rgb(70, 42, 11),
+                 rgb(247, 210, 171),
+                 transparent
+                );
+                border-image-slice: 1;
+                .theSpotWithItem{
+                    margin-top: -60px;
+                    width: 80%;
+                    height: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 40px;
+                    .itemContainer{
+                        position: relative;
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 50%;
+                        background-color: #fcd6bd;
+                        img{
+                            position: absolute;
+                            top: -65px;
+                            left: -35px;
+                            width: 130px;
+                            height: 130px;
+                            filter: drop-shadow(0px 0px 10px #000000e1);
+                        }
+                    }
+                    span{
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-weight: 500;
+                        color: #f8d1b7;
+                    }
+                }
+            }
+           
+        }
+        .theStory{
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .theStoryContainer{
+               position:relative;
+               width: 80%;
+               height: 80%;
+               background:linear-gradient(230deg,#1a0b01,#1a0b01,#382112) ;
+               border-bottom:1px solid;
+               border-top:1px solid;
+               border-image-source: 
+                linear-gradient(90deg, 
+                transparent,
+              rgb(70, 42, 11),
+              rgb(29, 16, 3),
+                transparent
+              );
+                border-image-slice: 1;  
+                border-radius: 30px;
+                display: flex;
+                h1{
+                    position: absolute;
+                    top: -43px;
+                    right: 30px;
+                    font-family: "Orbitron", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-weight: 900;
+                    background: linear-gradient(45deg, #9a8301, #a18f6d, #a85c00);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+               } 
+                .theStoryImagePart{
+                    position: relative;
+                    flex: 1;
+                    height: 60%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        position: absolute;
+                        top: -60px;
+                        left: -70px;
+                        width: 400px;
+                        height: 430px;
+                    }
+                }
+                .theStorytextPatr{
+                    flex: 2.5;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-weight: 500;
+                        color:#f8d1b7c4;
+                        font-size: 13px;
+                    }
+                }
+            }
+          
+        }
+    }
+}

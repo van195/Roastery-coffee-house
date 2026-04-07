@@ -14,26 +14,22 @@ const Hero = ()=>{
     gsap.registerPlugin(ScrollTrigger);
     useGSAP(()=>{
        gsap.to(Ref.current,{
-        keyframes: [{
-            x: -500,
+        keyframes: [
+        {
+            x: -530,
             rotate: 20,
-            scale: .7,
+            scale: .8,
             y:100
         },
-        {
-            x: 300,
-            rotate: 20,
-            scale: 0.7
-        },
-        {
-            x: 0,
-            rotate: 0,
-            scale: 0.4
+        {   
+            x:-287,
+            rotate:0,
+            scale: 0.3
         }],
         scrollTrigger:{
             trigger:Ref.current,
             start: "top top",
-            end:"+=1600",
+            end:"+=860",
             scrub:true,
             pin: true
         }
@@ -41,8 +37,8 @@ const Hero = ()=>{
        })
     }, { scope: container })
     return(
-        <div className="hero" ref={container}>
-           <div className="heroContainer">
+        <div className="hero" >
+           <div className="heroContainer" ref={container}>
              <img src={leaf} alt="" className="leafTop" />
              <img src={leaf} alt="" className="leafBottom" />
               <div className="heroTextPart">
