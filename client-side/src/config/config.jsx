@@ -27,7 +27,7 @@ export const CONFIG = {
         power: 2
     }
 };
-export const totalImages= 12
+export const totalImages= 9
 export const baseImageHeight= 375
 export const aspectRatios= ["3/2", "4/3", "5/4", "7/5"]
     

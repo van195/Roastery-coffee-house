@@ -11,7 +11,6 @@ const SpotLight = ()=>{
     const container = spotlightImagesContainer.current;
     if (!container) return;
 
-    // Clear previous (important for re-renders)
     container.innerHTML = "";
 
     // Create images
@@ -126,6 +125,7 @@ const SpotLight = ()=>{
   
     return(
         <div className="spotLight">
+           
             <div className="spotLight-images" ref={spotlightImagesContainer}>
 
             </div>

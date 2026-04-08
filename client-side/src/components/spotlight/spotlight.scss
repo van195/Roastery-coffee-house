@@ -1,6 +1,14 @@
 .spotLight{
-    height: 100svh;
+    width: 100vw;
+    height: max-content;
+    background:linear-gradient(230deg,#351806ec,#1a0a01f1,#1a0b01),url("../../assets/back-up-background-template.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
     .spotLight-images{
+        width: 60%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -10,6 +18,7 @@
           will-change: transform ,clip-path;
           overflow: hidden;
            img {
+            border-radius: 20px;
             width: 70%;
             height: 100%;
             object-fit: cover;
