@@ -3,8 +3,13 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.home{
-   
-    
+.home {
+  position: relative;
+}
+
+.menuContainer {
+  position: relative;
+  z-index: 10;
+  background: white;
 }
    
