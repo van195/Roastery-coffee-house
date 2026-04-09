@@ -7,28 +7,23 @@ import Zoom from '../../components/immersiveZoom/Zoom.jsx';
 import OurMenu from '../../components/ourMenu/ourMenu.jsx';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import JoinCommunity from '../../components/joinCommunit/joinCommunity.jsx';
 const Home =()=>{
-     gsap.registerPlugin(ScrollTrigger);
-    useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.fromTo(".menuContainer",
-        {
-           yPercent: 0,
-        }
-        ,{
-        yPercent: -100,
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".menuContainer",
-            start: "top bottom",   // when it enters viewport
-            end: "top top",
-            scrub: true,           // smooth scroll-linked animation
-        }
-        });
-
-    }, []);
+    const element = useRef(null);
+  // useEffect(()=>{
+  //      const handleScroll = ()=>{
+  //          const offsetY= window.scrollY;
+  //          if(element.current){
+  //          element.current.style.transform = `translateY(${offsetY * 0.3}px)`;
+  //          }
+  //      }
+  //      window.addEventListener("scroll", handleScroll);
+//
+  //      return()=>{
+  //          window.removeEventListener("scroll",handleScroll);
+  //      }
+  // },[])
     return(
         <div className="home">
            <NavBar/>
@@ -36,10 +31,11 @@ const Home =()=>{
            <CoffeeFeature/>
            <OurStory/>
            <SpotLight/>
-           <Zoom/>
-           <div className="menuContainer">
-            <OurMenu/>
+            <Zoom/>
+           <div className="menuContainer" ref={element}>
+             <OurMenu/>
            </div>
+          <JoinCommunity/>
         </div>
     )
 }

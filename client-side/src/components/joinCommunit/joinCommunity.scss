@@ -1,0 +1,71 @@
+.joincommunity{
+    width: 100vw;
+    height: 100svh;
+    background-color: #f3d9bc;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .joincommunityContainer{
+        width: 100%;
+        height: 60%;
+        background:linear-gradient(210deg,#956b4e,#41230e,#2d1706) ;
+        display: flex;
+        .theLeft,.theRight{
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 300px;
+            height: 300px;
+          }
+        }
+        .theCenter{
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+             margin-top: -100px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-weight: 1000;
+              font-size: 40px;
+              color: #f3d9bc;
+            }
+            p{
+                margin-top: 10px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-weight: 500;
+              font-size: 12px;  
+              color: #f3d9bcb8;
+            }
+            .inputPlace{
+                width: 350px;
+                height: 38px;
+                background-color: #f3d9bc;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                input{
+                    width: 350px;
+                    height: 30px;
+                    border: none;
+                    border-radius: 20px;
+                    outline: none;
+                    background-color: transparent;
+                }
+            }
+            .subscribe{
+                margin-top: 10px;
+                border:1px solid #956b4e;
+                border-radius: 20px;
+                padding: 10px 30px;
+                background-color: #2d1706;
+                color: #f3d9bc;
+            }
+        }
+        
+    }
+}

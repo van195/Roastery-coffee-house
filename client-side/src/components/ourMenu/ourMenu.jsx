@@ -6,6 +6,7 @@ import coffeeCup3 from "../../assets/coffeeCup3.png";
 import COFFEEcup2 from "../../assets/COFFEEcup2.png";
 import coffeeCup4 from "../../assets/coffeeCup4.png";
 import COFFEcup1 from "../../assets/COFFEcup1.png";
+import JoinCommunity from "../joinCommunit/joinCommunity";
 const OurMenu = ()=>{
     return(
         <div className="ourMenu">
