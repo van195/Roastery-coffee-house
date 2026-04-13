@@ -8,6 +8,8 @@ import {useGSAP} from "@gsap/react"
 import gsap from "gsap";
 import { useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { motion } from "framer-motion";
+import { itemBottomToTop, itemBottomToToptoText } from "../../config/FrameMotion";
 const Hero = ()=>{
     const Ref = useRef()
     const container = useRef()
@@ -35,20 +37,58 @@ const Hero = ()=>{
         }
 
        })
+       gsap.fromTo(
+         Ref.current,
+        { scale: 0.2},
+        {
+            scale: [1.1,1],
+            duration: 0.5,
+            delay: 4.2,
+            ease: "back.out(2.5)"
+        }
+       );
+       gsap.fromTo(
+         ".leafBottom",
+        { x:2,
+            rotate:0
+         },
+        {
+            x: 0,
+            rotate:-30,
+            duration: 0.5,
+            delay: 4.6,
+            ease: "back.out(2.5)"
+        }
+       );
+       gsap.fromTo(
+         ".leafTop",
+        { x:-2,
+            rotate:0
+         },
+        {
+            x: 0,
+            rotate:30,
+            duration: 0.5,
+            delay: 4.6,
+            ease: "back.out(2.5)"
+        }
+       );
     }, { scope: container })
     return(
         <div className="hero" >
            <div className="heroContainer" ref={container}>
              <img src={leaf} alt="" className="leafTop" />
              <img src={leaf} alt="" className="leafBottom" />
-              <div className="heroTextPart">
+              <motion.div className="heroTextPart">
                    <img src={singleCoffeeBean} className="coffeeBeans1" alt="" />
                    <img src={singleCoffeeBean} className="coffeeBeans2" alt="" />
                    <img src={singleCoffeeBean} className="coffeeBeans3" alt="" />
-                   <h1>Ro<strong>a</strong>stery Co<strong>ff</strong>ee House</h1>
+                   <motion.h1 variants={itemBottomToToptoText} initial='hidden' animate='visible'>
+                     Ro<strong>a</strong>stery Co<strong>ff</strong>ee House
+                    </motion.h1>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia sol.</p>
-                   <span>Order Now! <KeyboardDoubleArrowRightOutlinedIcon/></span>
-              </div>
+                   <motion.span variants={itemBottomToToptoText} initial='hidden' animate='visible'>Order Now! <KeyboardDoubleArrowRightOutlinedIcon/></motion.span>
+              </motion.div>
               <div className="heroImagePart">
                     <img src={BrownCoffeeCup} className='coffeeCup' alt="" ref={Ref}/>
                     <img src={liquidSplashCoffee} className='splashCoffee' alt="" />

@@ -1,6 +1,7 @@
 import "./coffeeFeature.scss";
 import yellowCup from "../../assets/yellowCoffeeCup.png";
 import roseCoffeeCup from "../../assets/roseCoffeeCup.png";
+import ice from "../../assets/ice.png";
 const CoffeeFeature =()=>{
     return(
         <div className="coffeeFeature">
@@ -8,6 +9,7 @@ const CoffeeFeature =()=>{
                 <div className="theCoffeeCupPart">
                     <img src={yellowCup} alt="" className="front" />
                     <img src={roseCoffeeCup} alt="" className="left" />
+                    <img src={ice} alt="" className="behinde" />
                 </div>
                 <div className="theCoffeeListPart">
                     <div className="itemContainer">
