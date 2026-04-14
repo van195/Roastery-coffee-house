@@ -73,6 +73,17 @@ const Hero = ()=>{
             ease: "back.out(2.5)"
         }
        );
+       gsap.timeline({
+        ScrollTrigger:{
+            trigger:'.heroContainer',
+            start:'top top',
+            end:'top top',
+            scrub:'true',
+            pin:true
+        }
+       })
+        .to('.leafTop',{y:-20},0)
+        .to('.leafBottom',{y:20},0)
     }, { scope: container })
     return(
         <div className="hero" >

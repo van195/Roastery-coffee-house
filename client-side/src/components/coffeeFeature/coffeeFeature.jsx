@@ -4,13 +4,14 @@ import iceCoffee1 from "../../assets/iceCoffee1.png";
 import iceCoffee2 from "../../assets/iceCoffee2.png";
 import iceCoffee3 from "../../assets/black.png";
 import roseCoffeeCup from "../../assets/roseCoffeeCup.png";
+import starbucksCoffee from "../../assets/starbucksCoffee.png";
 import ice from "../../assets/ice.png";
 const CoffeeFeature =()=>{
     return(
         <div className="coffeeFeature">
             <div className="coffeeFeatureContainer">
                 <div className="theCoffeeCupPart">
-                    <img src={yellowCup} alt="" className="front" />
+                    <img src={starbucksCoffee} alt="" className="front" />
                     <img src={roseCoffeeCup} alt="" className="left" />
                     <img src={ice} alt="" className="behinde" />
                 </div>

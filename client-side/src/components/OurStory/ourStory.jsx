@@ -30,7 +30,7 @@ const OurStory = ()=>{
                        </div>
                        <div className="theSpotWithItem">
                             <div className="itemContainer">
-                                <img src={yellowCup} alt="" />
+                                <img src={roseCoffeeCup} alt="" className="roseCoffeeCup"/>
                             </div>
                             <span>Velvet Bean Brew</span>
                       </div>
@@ -44,10 +44,10 @@ const OurStory = ()=>{
                         </div>
                         <div className="theStorytextPatr">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa enim exercitationem itaque velit magnam dolores nam molestias nobis quia, 
-                                quisquam est quae incidunt ipsam tempora distinctio totam. Nisi, id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quam 
-                                suscipit, illum magni quisquam accusantium architecto, saepe maiores eveniet voluptatem dolor veniam obcaecati odio quasi id molestiae,
-                                 mollitia fugiat aliquam?
+                                Our journey started with a vision—to create more than just coffee.
+                                 We wanted a space where flavors meet creativity and every visit feels personal.
+                                  From sourcing our beans to perfecting each recipe, we focus on the details that turn ordinary moments into something memorable.
+                                  With carefully selected beans and refined techniques, we create an experience that goes beyond the ordinary.
                             </p>
                         </div>
                      </div>
