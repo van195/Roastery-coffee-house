@@ -24,8 +24,8 @@ const OurMenu = ()=>{
                         <img src={coffeeCup4} alt="" />
                     </div>
                     <div className="textPart">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <h1>Classic Cappuccino</h1>
+                        <p>Rich espresso topped with silky steamed milk and a smooth layer of foam.</p>
                         <span>Order</span>
                     </div>
                 </div>
@@ -34,8 +34,8 @@ const OurMenu = ()=>{
                         <img src={coffeeCup3} alt="" />
                     </div>
                     <div className="textPart">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <h1>House Black Coffee</h1>
+                        <p>Freshly brewed coffee with bold aroma and a clean, balanced finish.</p>
                         <span>Order</span>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ const OurMenu = ()=>{
                         <img src={COFFEEcup2} alt="" />
                     </div>
                     <div className="textPart">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <h1>Creamy Latte</h1>
+                        <p>Espresso with steamed milk and a touch of sweet caramel for a warm,</p>
                         <span>Order</span>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ const OurMenu = ()=>{
                         <img src={COFFEcup1} alt="" />
                     </div>
                     <div className="textPart">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <h1>Caramel Latte</h1>
+                        <p>Smooth espresso blended with velvety milk and finished with latte art.</p>
                         <span>Order</span>
                     </div>
                 </div>

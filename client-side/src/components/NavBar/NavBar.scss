@@ -20,10 +20,12 @@ body{
        justify-content:center;
        gap: 30px;
        overflow: hidden;
+       z-index: 11;
        img{
         margin-top: 20px;
         width: 50px;
         height: 35px;
+        z-index: 11;
        }
        .theMenu{
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -33,6 +35,7 @@ body{
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           cursor: pointer;
+          z-index: 11;
           transition: .4s ease-out;
           &:hover{
            transform: scale(1.05);
@@ -52,6 +55,7 @@ body{
             font-weight: 800;
             cursor: pointer;
             transition: .4s ease-out;
+             z-index: 11;
             &:hover{
             transform: scale(1.05);
             border: 1px solid #ffffff85;

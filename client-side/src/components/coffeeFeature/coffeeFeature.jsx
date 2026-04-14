@@ -1,5 +1,8 @@
 import "./coffeeFeature.scss";
 import yellowCup from "../../assets/yellowCoffeeCup.png";
+import iceCoffee1 from "../../assets/iceCoffee1.png";
+import iceCoffee2 from "../../assets/iceCoffee2.png";
+import iceCoffee3 from "../../assets/black.png";
 import roseCoffeeCup from "../../assets/roseCoffeeCup.png";
 import ice from "../../assets/ice.png";
 const CoffeeFeature =()=>{
@@ -14,21 +17,21 @@ const CoffeeFeature =()=>{
                 <div className="theCoffeeListPart">
                     <div className="itemContainer">
                         <div className="itemImageContainer">
-                          <img src={yellowCup} alt="" />
+                          <img src={iceCoffee1} alt="" />
                         </div>
-                        <span>asdfasffadsfasdf</span>
+                        <span>Cocktails</span>
                     </div>
                     <div className="itemContainer">
                         <div className="itemImageContainer">
-                          <img src={roseCoffeeCup} alt="" />
+                          <img src={iceCoffee2} alt="" />
                         </div>
-                        <span>asdfasffadsfasdf</span>
+                        <span>Noir Iced Elixir</span>
                     </div>
                     <div className="itemContainer">
                         <div className="itemImageContainer">
-                          <img src={yellowCup} alt="" />
+                          <img src={iceCoffee3} alt="" className="balckBox"/>
                         </div>
-                        <span>asdfasffadsfasdf</span>
+                        <span>Velour Latte</span>
                     </div>
                 </div>
             </div>

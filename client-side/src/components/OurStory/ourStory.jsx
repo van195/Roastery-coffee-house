@@ -20,19 +20,19 @@ const OurStory = ()=>{
                             <div className="itemContainer">
                                 <img src={yellowCup} alt="" />
                             </div>
-                            <span>sdfasdfafads</span>
+                            <span>Milk Iced Coffee</span>
                        </div>
                        <div className="theSpotWithItem">
                             <div className="itemContainer">
 
                             </div>
-                            <span>sdfasdfafads</span>
+                            <span>Signature Cold Brew</span>
                        </div>
                        <div className="theSpotWithItem">
                             <div className="itemContainer">
                                 <img src={yellowCup} alt="" />
                             </div>
-                            <span>sdfasdfafads</span>
+                            <span>Velvet Bean Brew</span>
                       </div>
                     </div>
                 </div>
