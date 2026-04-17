@@ -1,3 +1,17 @@
+
+
+https://github.com/user-attachments/assets/d7d71e7f-2e7a-45c5-a1bc-ed8ac73e106f
+
+
+
+https://github.com/user-attachments/assets/0edc69ef-1e62-4611-8358-0b10e6abd196
+
+
+
+https://github.com/user-attachments/assets/e5f43a3a-c969-4d47-b022-7894d978c29d
+
+
+
 ☕ Roastery Coffee House
 
 Roastery Coffee House is a modern, visually immersive landing page designed to showcase what I can do as a frontend developer. It's not just a coffee shop website — it's a storytelling experience that uses smooth parallax scrolling, immersive zoom transitions, and cinematic animations to take visitors on a journey through the brand's vibrant world.
